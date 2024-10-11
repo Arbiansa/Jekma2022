@@ -1,0 +1,193 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+/* navbar style */
+.navabr {
+    z-index: 3;
+}
+
+*{
+    z-index: 2;
+}
+
+.accent-img{
+    z-index: 1;
+}
+.nav-link.active {
+    font-weight: 700;
+} 
+.nav-link {
+    font-size: 16px;
+}
+.button-login {
+    border: none;
+    background-color: white;
+    padding-right: 30px;
+}
+
+/* hero section */
+.hero-img {
+   padding-top: 130px;
+   padding-right: 220px; 
+}
+
+.hero-tagline h1{
+    font-weight: 700;
+    margin-top: 170px;
+}
+.hero-tagline p{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    line-height: 25px;
+}
+
+.kotak-hero {
+    height: 41vw;
+}
+
+/* driver on */
+
+.rating {
+    display: flex;
+}
+/* .rating label{
+    display: block;
+    cursor: pointer;
+    width: 50px;
+    background: #ccc;
+}
+
+.rating label ::before{
+    content: "f005";
+    font-family: fontAwesome;
+    display: block;
+    font-size: 50px;
+} */
+
+.rating input{
+    display: none;
+}
+
+.rating label{
+    padding-top: 18px;
+    padding-right: 10px;
+    color: #FCE72A;
+}
+.rating input + label{
+    cursor: pointer;
+}
+
+#star{
+    color: #FCE72A;
+    padding-top: 16px;
+    
+}
+
+.skuter-img{
+    padding-top: 150px;
+    padding-right: 200px;
+}
+
+.button-driver-on {
+    background-color: #67B443;
+    border: none;
+    padding: 10px 24px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+    margin-top: 5px;
+}
+
+
+.button-delivery {
+    border: none;
+    padding: 10px 29px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+    margin-top: 5px;
+}
+
+/* form booking */
+.card-booking{
+    border: none;
+    padding: 10px 233px 10px 10px;
+}
+
+.button-bayar{
+    background-color: #67B443;
+    border: none;
+    margin-bottom: 10px;
+    padding: 10px 24px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+    margin-left: 23px;
+}
+
+.map-img{
+    padding-top: 180px;
+    padding-right: 150px;
+    z-index: 1;
+}
+
+/* ulasan */
+.p{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.ulasan{
+    background-color: #FF5E60;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.ulasan-input{
+    padding-right: 637px;
+    padding-bottom: 200px;
+    background-color: white;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.button-sudah{
+    color: white;
+    margin-top: 20px;
+}
+
+/* Adnim Daftar Driver */
+
+.daftar-bg{
+    background-color: #FF5E60;
+    color: white;
+}
+
+/* ulasan */
+.button-cancel-driver{
+    color: white;
+    background-color: #FF5E60;
+    text-align: center;
+    padding: 3px 10px;
+    border-radius: 5px;
+}
+.button-driver-sukses{
+    color: white;
+    background-color: #67B443;
+    text-align: center;
+    padding: 3px 10px;
+    border-radius: 5px;
+}
+
+.box-ulasan{
+    border-radius: 5px;
+    padding: 10px 20px;
+    border-style: solid;
+    border-color: #838383;
+}
+
+.pengguna{
+    margin-top: 90px;
+}
